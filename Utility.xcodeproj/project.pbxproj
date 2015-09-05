@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0FCEAED41B9AFEB9003AC0A6 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCEAED31B9AFEB9003AC0A6 /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FCEAEDC1B9AFED5003AC0A6 /* common in Resources */ = {isa = PBXBuildFile; fileRef = 0FCEAEDB1B9AFED5003AC0A6 /* common */; };
+		0FCEAEDD1B9AFEE2003AC0A6 /* common in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEAEDB1B9AFED5003AC0A6 /* common */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FCEAED01B9AFEB9003AC0A6 /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCEAED31B9AFEB9003AC0A6 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		0FCEAED51B9AFEB9003AC0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FCEAEDB1B9AFED5003AC0A6 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = ../../common; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +33,7 @@
 		0FCEAEC61B9AFEB9003AC0A6 = {
 			isa = PBXGroup;
 			children = (
+				0FCEAEDB1B9AFED5003AC0A6 /* common */,
 				0FCEAED21B9AFEB9003AC0A6 /* Utility */,
 				0FCEAED11B9AFEB9003AC0A6 /* Products */,
 			);
@@ -120,6 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FCEAEDC1B9AFED5003AC0A6 /* common in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FCEAEDD1B9AFEE2003AC0A6 /* common in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
